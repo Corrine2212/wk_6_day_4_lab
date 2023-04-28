@@ -1,0 +1,129 @@
+header {
+    text-align: center;
+}
+
+body {
+    font-family: Palatino;
+    text-align: center;
+}
+
+#new-item-form {
+    background-color: lightblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    /* Center the form elements */
+    width: 45%;
+    margin: auto;
+}
+
+#form-wrapper {
+    position: center;
+}
+
+#form-item {}
+
+.form-item label {
+    display: inline-block;
+    width: 80px;
+    /* Set the desired width for the label */
+    text-align: left;
+    font-size: 18px;
+    margin-right: 10px;
+    /* Add some spacing between the label and input */
+    margin-bottom: 10px;
+}
+
+.form-item input,
+.form-item select {
+    display: inline-block;
+    width: 70%;
+    height: 40px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 100%;
+}
+
+#all-buttons {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#submit {
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    resize: vertical;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 70px;
+    display: inline-block;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: gray;
+}
+
+#delete-all-button {
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    resize: vertical;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+#delete-all-button:hover {
+    background-color: transparent;
+    color: red;
+    border: solid red;
+}
+
+.title {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.author {
+    color: gray;
+}
+
+.category {}
+
+li {
+    border: solid;
+    border-radius: 5px;
+    padding: 20px;
+    list-style: none;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 180px;
+    text-align: center;
+    row-gap: 6px;
+}
+
+#reading-list {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
